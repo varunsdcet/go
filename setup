@@ -1,0 +1,43 @@
+mac@macs-MacBook-Pro myapp % go mod init myapp
+go: creating new go.mod: module myapp
+mac@macs-MacBook-Pro myapp % go run main.go
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Go project is set up!")
+}
+Code Explanation
+go
+Copy
+Edit
+package main
+This defines the package as main.
+
+In Go, the main package is special because it tells the Go compiler that this is an executable program (not a library).
+
+go
+Copy
+Edit
+import "fmt"
+This imports the fmt (format) package, which provides functions for formatted I/O (like printing to the console).
+
+go
+Copy
+Edit
+func main() {
+This defines the main function.
+
+Every Go program must have a main function inside the main package.
+
+Execution starts from main().
+
+go
+Copy
+Edit
+    fmt.Println("Go project is set up!")
+fmt.Println(...) is used to print text to the console.
+
+It prints "Go project is set up!" followed by a new line
