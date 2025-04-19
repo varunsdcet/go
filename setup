@@ -186,3 +186,4 @@ func sendWelcomeEmail(user User) {
 
 	log.Println("✅ HTML welcome email sent to", user.Email)
 }
+//go run *.go
